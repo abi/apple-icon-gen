@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "apple-icon-gen": "./index.js"
+  },
   "keywords": [
     "icons",
     "ios",
