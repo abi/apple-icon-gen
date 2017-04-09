@@ -1,6 +1,6 @@
 {
   "name": "apple-icon-gen",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Generate icon files for all Apple platforms from a single icon",
   "main": "./index.js",
   "scripts": {
