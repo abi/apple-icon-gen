@@ -19,7 +19,8 @@ Transform PNG files into the requisite sizes for Apple platforms. Doesn't requir
 ```
 npm install -g apple-icon-gen
 
-apple-icon-gen ---input=data/input/icon.png --output=data/output --spec=20@2 20@3 29@2 29@3 40@2 40@3 60@2 60@3
+apple-icon-gen --input='data/input/icon.png' --output='data/output' --spec='20@2 20@3 29@2 29@3 40@2 40@3 60
+@2 60@3'
 ```
 
 ## Troubleshooting
