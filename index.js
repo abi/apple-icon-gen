@@ -8,6 +8,7 @@ try {
     var inputFile = path.normalize(argv.input);
     var inputFileBasename = path.basename(inputFile, '.png');
 } catch (e) {
+    console.log(e);
     console.error('Check your input path');
     process.exit(1);
 }
